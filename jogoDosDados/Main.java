@@ -82,6 +82,7 @@ public class Main{
             case 4 -> System.out.print(dado4);
             case 5 -> System.out.print(dado5);
             case 6 -> System.out.print(dado6);
+            default -> System.out.println("Número de rolagens inválido!");
         }
 
     }
